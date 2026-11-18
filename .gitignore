@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+env/
+clip-watcher/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large recordings and generated clips
+rec/*
+!rec/.gitkeep
+clips/*
+!clips/.gitkeep
+
+# Application logs
+*.log
+*.log.*
+clip-watcher.log
+
+# Binaries and local builds
+ffmpeg/
+ffmpeg_extract/
+*.exe
+*.dll
+
+# System files
+Thumbs.db
+.DS_Store
